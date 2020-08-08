@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weather.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+
+
+</head>
+<body>
+<div class="app-wrap">
+  <header>
+    <input type="text" autocomplete="off" class="search-box" placeholder="Wybierz miasto..."/>
+  </header>
+  <main>
+    <section class="location">
+      <div class="city">Katowice, PL</div>
+      <div class="date"></div>
+    </section>
+    <div class="current">
+      <div class="temp"></div>
+      <div class="weather"></div>
+      <div class="weather-desc"></div>
+      <div class="weather-icon"></div>
+      <div class="hi-low"></div>
+    </div>
+  </main>
+</div>
+<script src="weather.js"></script>
+</body>
+</html>

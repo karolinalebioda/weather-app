@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa';
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: top center;
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px 16px 16px 16px;
+    border-bottom: 3px solid #083EF1;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+
+header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.location .city {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.location .date {
+    color: whitesmoke;
+    font-size: 16px;
+
+}
+
+.current .temp {
+    color: whitesmoke;
+    font-size: 100px;
+    font-weight: 600;
+    margin: 30px 0px;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.current .temp span {
+    font-weight: 500;
+}
+
+.current .weather {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.weather-desc {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .hi-low {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.weather-icon {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.black-icon {
+    color: black;
+}
+
+/* .icons__item {
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c2";
+    color: var(--accent-color);
+    display: block;
+    padding: 10px;
+    margin: 10px;
+} */
